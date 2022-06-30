@@ -28,10 +28,10 @@ def join_and_make(in_path1, in_path2=''):
 
 # 训练数据起止
 train_start = 0
-train_end = 500
+train_end = 4000
 
 # 测试数据起止
-test_start = 500
+test_start = 4000
 test_end = 5000
 
 # val或query 先放这些 且 只放这些 才放进其他（train或query）
@@ -42,8 +42,10 @@ video_val_or_query_num = 1
 image_train_or_gallery_num = 5
 video_train_or_gallery_num = 15
 
-
 # 原始数据集所在路径
+
+source_path = r"F:\wab\disk7\leo.gb\TianchiDataset\train_dataset_7w\train_dataset_part1"
+
 
 target_path = join_and_make("./target")
 ###
@@ -61,7 +63,6 @@ image_text_query_path = join_and_make(image_text_path, 'query')
 
 ####
 
-source_path = r"F:\wab\disk7\leo.gb\TianchiDataset\train_dataset_7w\train_dataset_part1"
 
 image_path = os.path.join(source_path, "image")
 image_annotation_path = os.path.join(source_path, "image_annotation")
