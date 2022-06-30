@@ -5,7 +5,7 @@ logs/
 __pycache__/
 core
 tool/
-util/
+
 GPU-Re-Ranking/
 GPU-Re-Ranking/extension/adjacency_matrix/build_adjacency_matrix.egg-info/
 GPU-Re-Ranking/extension/propagation/gnn_propagate.egg-info/
