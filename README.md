@@ -2,4 +2,4 @@
 2. 运行`dataProcess.py`
 3. 运行`train.py`
 4. 运行`build.py`
-5. 运行`evalueate.py`
+5. 运行`evaluate.py`
